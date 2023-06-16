@@ -1,0 +1,11 @@
+C:\Users\tayll\source\repos\Cadastro Funcionario\Cadastro Funcionario\bin\Debug\Cadastro Funcionario.exe.config
+C:\Users\tayll\source\repos\Cadastro Funcionario\Cadastro Funcionario\bin\Debug\Cadastro Funcionario.exe
+C:\Users\tayll\source\repos\Cadastro Funcionario\Cadastro Funcionario\bin\Debug\Cadastro Funcionario.pdb
+C:\Users\tayll\source\repos\Cadastro Funcionario\Cadastro Funcionario\obj\Debug\Cadastro Funcionario.csproj.AssemblyReference.cache
+C:\Users\tayll\source\repos\Cadastro Funcionario\Cadastro Funcionario\obj\Debug\Cadastro Funcionario.csproj.SuggestedBindingRedirects.cache
+C:\Users\tayll\source\repos\Cadastro Funcionario\Cadastro Funcionario\obj\Debug\Cadastro_Funcionario.Form1.resources
+C:\Users\tayll\source\repos\Cadastro Funcionario\Cadastro Funcionario\obj\Debug\Cadastro_Funcionario.Properties.Resources.resources
+C:\Users\tayll\source\repos\Cadastro Funcionario\Cadastro Funcionario\obj\Debug\Cadastro Funcionario.csproj.GenerateResource.cache
+C:\Users\tayll\source\repos\Cadastro Funcionario\Cadastro Funcionario\obj\Debug\Cadastro Funcionario.csproj.CoreCompileInputs.cache
+C:\Users\tayll\source\repos\Cadastro Funcionario\Cadastro Funcionario\obj\Debug\Cadastro Funcionario.exe
+C:\Users\tayll\source\repos\Cadastro Funcionario\Cadastro Funcionario\obj\Debug\Cadastro Funcionario.pdb
