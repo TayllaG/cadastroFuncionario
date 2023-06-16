@@ -27,12 +27,12 @@ namespace Cadastro_Funcionario
         {
             string funcao = Convert.ToString(comboBoX_funcao.Text);
             double salario = Convert.ToDouble(tx_salario.Text);
-            double salarioTotal = Convert.ToDouble(lbl_salarioTotal.Text);
+            string salarioTotal = Convert.ToString(lbl_salarioTotal.Text);
             double irpf = Convert.ToDouble(tx_irpf.Text);
             
             Funcionario f = new Funcionario(salario, salarioTotal, irpf);
-
-            lbl_salarioTotal.Text = f.FuncaoSel();
+            
+            lbl_salarioTotal.Text = f.FuncaoSel().ToString();
 
         }
     }

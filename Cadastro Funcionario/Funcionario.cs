@@ -4,10 +4,10 @@ public class Funcionario
 {
     string funcao;
     double salario;
-    double salarioTotal;
+    string salarioTotal;
     double irpf;
 
-    public Funcionario(double salario, double salarioTotal, double irpf)
+    public Funcionario(double salario, string salarioTotal, double irpf)
     {
         this.salario = salario;
         this.salarioTotal = salarioTotal;
@@ -19,7 +19,19 @@ public class Funcionario
         {
             double periculosidade = (salario * 20) / 100;
             double salarioT = periculosidade + salario;
+            
             return salarioT.ToString("C2");
+            /*
+            if(salarioT >= 5.000)
+            {
+                double subIm = (100 * salario) / (salario * irpf);
+                double salarioTotal = subIm / 100;
+                return salarioTotal.ToString("C2");
+            }
+            else
+            {
+                return salarioT.ToString("C2");
+            }*/
 
         }
         else if(funcao == "TI")
@@ -27,6 +39,17 @@ public class Funcionario
             double adcTecn = (salario + 5.600);
             double salarioT = adcTecn;
             return salarioT.ToString("C2");
+            /*
+            if (salarioT >= 5.000)
+            {
+                double subIm = (100 * salario) / (salario * irpf);
+                double salarioTotal = subIm / 100;
+                return salarioTotal.ToString("C2");
+            }
+            else
+            {
+                return salarioT.ToString("C2");
+            }*/
         }
         else if( funcao == "ADM")
         {
@@ -34,6 +57,17 @@ public class Funcionario
             double valALimento = valTransport + 200;
             double salarioT = valALimento;
             return salarioT.ToString("C2");
+            /*
+            if (salarioT >= 5.000)
+            {
+                double subIm = (100 * salario) / (salario * irpf);
+                double salarioTotal = subIm / 100;
+                return salarioTotal.ToString("C2");
+            }
+            else
+            {
+                return salarioT.ToString("C2");
+            }*/
         }
         else
         {
@@ -43,5 +77,4 @@ public class Funcionario
 
     }
     
-}
 }
